@@ -52,8 +52,8 @@ import (
 	"io"
 	"log"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls_client "github.com/bogdanfinn/tls-client"
+	http "github.com/1395173231/poe-openai-proxy/fhttp"
+	tls_client "github.com/1395173231/poe-openai-proxy/tls-client"
 )
 
 func main() {

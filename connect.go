@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/1395173231/poe-openai-proxy/fhttp"
 	"golang.org/x/net/proxy"
 
-	"github.com/bogdanfinn/fhttp/http2"
+	"github.com/1395173231/poe-openai-proxy/fhttp/http2"
 )
 
 type directDialer struct {

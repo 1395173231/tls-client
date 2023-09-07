@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/cookiejar"
+	http "github.com/1395173231/poe-openai-proxy/fhttp"
+	"github.com/1395173231/poe-openai-proxy/fhttp/cookiejar"
 )
 
 type CookieJarOption func(config *cookieJarConfig)

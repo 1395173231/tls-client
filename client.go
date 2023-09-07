@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httputil"
+	http "github.com/1395173231/poe-openai-proxy/fhttp"
+	"github.com/1395173231/poe-openai-proxy/fhttp/httputil"
 	"golang.org/x/net/proxy"
 )
 

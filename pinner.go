@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/1395173231/poe-openai-proxy/fhttp"
+	tls "github.com/1395173231/poe-openai-proxy/utls"
 	"github.com/tam7t/hpkp"
 )
 

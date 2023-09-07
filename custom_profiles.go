@@ -3,8 +3,8 @@ package tls_client
 import (
 	"math"
 
-	"github.com/bogdanfinn/fhttp/http2"
-	tls "github.com/bogdanfinn/utls"
+	"github.com/1395173231/poe-openai-proxy/fhttp/http2"
+	tls "github.com/1395173231/poe-openai-proxy/utls"
 )
 
 var ZalandoAndroidMobile = ClientProfile{

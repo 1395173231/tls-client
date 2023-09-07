@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/1395173231/poe-openai-proxy/utls"
 )
 
 func GetSpecFactoryFromJa3String(ja3String string, supportedSignatureAlgorithms, supportedDelegatedCredentialsAlgorithms, supportedVersions, keyShareCurves []string, certCompressionAlgo string) (func() (tls.ClientHelloSpec, error), error) {
